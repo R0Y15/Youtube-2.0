@@ -1,5 +1,5 @@
 # A Modern YouTube Clone Application in React JS with Material UI 5
-## You Can Visit the Site Here - https://youtube-2-0-gqhw.vercel.app/
+### Visit the Site - https://youtube-2-0-gqhw.vercel.app/
 
 ![YouTube](https://i.ibb.co/x7dTj2K/Web-capture-4-12-2023-202547-localhost.jpg)
 
@@ -19,7 +19,7 @@ Also If you want to run the project locally, then follow the steps below:
 
     ```bash
     REACT_APP_RAPID_API_KEY = 'YOUR_API_KEY'
-    ``
+    ```
 4. Run the development server
     
     ```bash 
