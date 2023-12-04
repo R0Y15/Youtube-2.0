@@ -25,9 +25,9 @@ const Feed = () => {
         </Typography>
       </Box>
 
-      <Box p={2} sx={{ overflowY: "auto", height: "90vh", flex: 2 }}>
-        <Typography variant="h4" fontWeight="bold" mb={2} sx={{ color: "white" }}>
-          {selectedCategory} <span style={{ color: "#fc0377" }}>videos</span>
+      <Box p={2} sx={{ overflowY: "auto", height: "90vh", flex: 2, position: 'relative', left: '100px', width: '100%' }}>
+        <Typography variant="h4" fontWeight="bold" mb={2} sx={{ color: "white",  position: 'relative', left: '38%'}}>
+          {selectedCategory} <span style={{ color: "#fc0377", position: 'relative' }}>videos</span>
         </Typography>
 
         <Videos videos={videos} />
